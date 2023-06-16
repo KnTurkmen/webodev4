@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+.yemek-link {
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  text-decoration: none;
+  text-align: center;
+  padding: 25px;
+  color: white;
+}
+
+.yemek-link:hover {
+  opacity: 0.5;
+}
+.menu-yazisi {
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  padding: 10px 25px;
+}
+.ust-bilgi {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 25px;
+  font-size: 32px;
+  font-family: Cinzel;
+  color: rgb(42, 122, 165);
+  background-color: #ffffff;
+}
+.navigasyon {
+  margin-left: auto;
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  font-size: 18px;
+}
+.navigasyon-oge {
+  color: black;
+  padding: 8px 16px;
+}
+.navigasyon-oge:hover {
+  background-color: black;
+  color: white;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Cabin;
+}
+.gunun-yemegi {
+  background-color: red;
+  color: aliceblue;
+  position: absolute;
+  right: -10px;
+  top: 10px;
+  padding: 5px 10px;
+}
+.kutu {
+  background-color: brown;
+  position: relative;
+  border-radius: 16px;
+}
+.menu {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: rgba(255, 253, 253, 0.45);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.yemek-listesi {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 980px;
+  margin: 30px auto;
+}
+.yemek-isimi {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Dancing Script";
+}
+.anasayfa {
+  background-image: url("./images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 680px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.tanitim {
+  background: rgba(0, 0, 0, 0.45);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  position: absolute;
+  left: 180px;
+  width: 480px;
+  display: flex;
+  padding: 25px 50px;
+  gap: 25px;
+  flex-direction: column;
+  align-items: start;
+}
+.baslik {
+  font-size: 48px;
+  font-weight: 700px;
+}
+.alt-baslik {
+  font-size: 24px;
+}
+.kaydir {
+  padding: 10px 25px;
+  background-color: white;
+  color: black;
+}
+.kaydir:hover {
+  background-color: black;
+  color: white;
+}

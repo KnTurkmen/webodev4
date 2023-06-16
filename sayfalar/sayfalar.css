@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(120, 31, 31);
+  font-size: 18px;
+  color: white;
+}
+.yemek-sayfasi {
+  display: flex;
+  padding: 48px;
+  gap: 48px;
+  max-width: 1080px;
+  margin: 0 auto;
+  align-items: start;
+}
+.yemek-bilgi {
+  position: sticky;
+  top: 48px;
+  text-align: center;
+}
+.yemek-bilgi h1 {
+  font-family: "Dancing Script";
+  font-size: 48px;
+  margin-top: 36px;
+}
+.yemek-bilgi h3 {
+  font-size: 24px;
+  margin-top: 24px;
+}
+.yemek-aciklama {
+  padding: 36px;
+  border-radius: 48px;
+}
+.yemek-aciklama ul {
+  padding-left: 20px;
+}
+br {
+  height: 20px;
+}
+h4 {
+  font-size: 20px;
+}
